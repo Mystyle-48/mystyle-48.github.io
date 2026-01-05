@@ -1,0 +1,19 @@
+1.2.1 (2026-01-04)
+- Remove MSVC redistributable repair function
+- Don't modify app collection during key iteration in winget_install function
+
+1.2.0 (2025-11-04)
+- Simplify WinGet install/upgrade code based on official documentation
+- Add log file functionality
+- Ensure exit code is always checked after app install
+- Add more comments
+- Add exit code checks for InternetOpenUrl() failed error and Microsoft Store package install/update error
+
+1.1.0 (2025-07-09)
+- Add support for passing in app list as an argument when running the script
+
+1.0.1 (2025-06-28)
+- Remove PowerToys from default app list
+
+1.0.0 (2025-06-28)
+- Initial release
